@@ -1,0 +1,164 @@
+.frame-adm{
+    border: 5px solid #267da3;                      
+    background-color: #267da3;
+    width: 18%; /*ancho del contenedor*/
+    min-width: 200px;
+    min-height: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px; /*crea un margen superior e inferior de 20px y el margen serecho e izquierdo lo pone automatico o centrado*/
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 0;
+    vertical-align: bottom;
+    padding-left: 3%;
+    padding-right: 3%;
+    cursor: pointer;
+    vertical-align: top;
+    justify-content: center;
+    transition-duration:	1.5;
+}
+
+
+.table-adm{
+    min-height: 100vh;
+    background: #1b2838;
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-adm-i{                     
+    background-color: rgba(38, 125, 163, 0.5);
+    width: 100%; /*ancho del contenedor*/
+    height: 100%;
+}
+
+.frame-adm-i-fondo{
+    border: 5px solid #267da3;
+    background-image: url("../IMG/fondolegal.jpg");
+    width: 80%;
+    min-width: 200px;
+    height: 100%; /* ajuste para ocupar el 100% del alto del contenedor padre */
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 0;
+    justify-content: center;
+    box-sizing: border-box; /* incluye el borde en la altura total */
+}
+
+
+
+/*FORMULARIO*/
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form {
+	padding: 50px 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-top: 28px;
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(206, 203, 203)
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+.blanco{
+ color: black;
+ text-align: center;
+}
+
+.h3-i{
+    text-align: center;
+    font-size: 20px;
+    color: #267da3;
+}
+
+.bottomh-i{
+    display: block;/*establece que el lemento ocupara todo el espacio y el siguiente objeto aparecera abajo*/
+    width: 60%; /*ancho maximo*/
+    margin: 1em auto; /*margen superior e inferior de 1 y un margen derecho e izquierdo auto que es centrado*/
+    height: 2em; /*altura*/
+    font-size: 1.1rem;/*tama;o de la letra*/
+    background-color: #267da3; /*color de fondo*/
+    border-color: white;/*color del borde*/
+    min-width: 300px;/*ancho minimo*/
+    border-radius: 15px;
+    color: inherit;/*el elemento se le asigna el color heredado del padre*/
+    text-decoration: none;
+}
+
+.bottomh-i-form{
+    display: block;/*establece que el lemento ocupara todo el espacio y el siguiente objeto aparecera abajo*/
+    width: 40%; /*ancho maximo*/
+    margin: 1em auto; /*margen superior e inferior de 1 y un margen derecho e izquierdo auto que es centrado*/
+    height: 2em; /*altura*/
+    font-size: 1.1rem;/*tama;o de la letra*/
+    background-color: #267da3; /*color de fondo*/
+    border-color: white;/*color del borde*/
+    border-radius: 15px;
+    color: inherit;/*el elemento se le asigna el color heredado del padre*/
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .bottomh-i-form {
+      width: auto;
+      font-size: small;
+      padding: 5px;
+      vertical-align: middle;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:757px){
+	form {
+		padding: 50px 20px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 70px;
+		padding-top: 28px;
+		margin-bottom: 30px
+	}
+	input {
+		width: calc(100% - 20px);
+		padding: 9px;
+		margin: auto;
+		margin-top: 12px;
+		font-size: 16px
+	}
+
+}
+
+
+/*reescribir*/
+
+.table-br-i{
+    min-height: 100vh;
+    height: auto;
+    background: #1b2838;
+    margin: 0;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3em;
+    overflow: hidden;
+    justify-content: center;
+    list-style: none;
+}

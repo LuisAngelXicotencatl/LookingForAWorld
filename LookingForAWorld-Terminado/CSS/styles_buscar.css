@@ -1,0 +1,52 @@
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    background: #bb3444;
+    padding: 10px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .buscar{
+        top: 17%;
+    }
+}
+
+.buscar_juego{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+    line-height: 60px;
+    transition: .3s;
+    width: 0;
+}
+
+.presionar{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.buscar:hover > .buscar_juego{
+    width: 500px;
+    top: 90%;
+
+}
+
+@media screen and (max-width: 800px) {
+    .buscar:hover > .buscar_juego{
+        top: 17%;
+        width: 80%;
+    }
+}

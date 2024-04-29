@@ -1,0 +1,114 @@
+
+
+div{
+  color: #dfdfe2;
+  font-size: 20px;
+  font-family: Helvetica;
+  display: block;
+}
+
+.bottomh{
+    display: block;/*establece que el lemento ocupara todo el espacio y el siguiente objeto aparecera abajo*/
+    width: 60%; /*ancho maximo*/
+    margin: 1em auto; /*margen superior e inferior de 1 y un margen derecho e izquierdo auto que es centrado*/
+    height: 2em; /*altura*/
+    font-size: 1.1rem;/*tama;o de la letra*/
+    background-color: #3b3b4f; /*color de fondo*/
+    border-color: white;/*color del borde*/
+    min-width: 300px;/*ancho minimo*/
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) { /* Cambia 600px por el ancho máximo que consideres para pantallas pequeñas */
+  .bottomh {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+a:visited{
+  color: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .bottomh{
+    font-size: 12px;
+    padding: 5px;
+}
+}
+
+
+.flex-horixontal{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-left: 10%;
+}
+.flex-horixontal-botones{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .flex-horixontal-botones {
+    flex-direction: column; /* Cambiamos la dirección a columna */
+    align-items: flex-start; /* Alineamos los elementos a la izquierda */
+    padding-left: 0; /* Quitamos el padding izquierdo */
+    align-items: center;
+  }
+  
+  .flex-horixontal-botones button {
+    margin-bottom: 10px; /* Agregamos un margen inferior entre los botones */
+    width: 100%; /* Establecemos el ancho al 100% para ocupar todo el espacio disponible */
+  }
+}
+
+
+.footer-name{
+ font-size: 30px;
+ font-family: italic;
+ padding-left: 10%;
+}
+@media (max-width: 600px) { /* Cambia 600px por el ancho máximo que consideres para pantallas pequeñas */
+  .footer-name{
+    font-size: 15px;
+    padding-left: 3%;
+  }
+}
+
+.borde{
+  height: 5px;
+  width: 80%;
+  text-align: center;
+  background-color: #bb3444;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+.label-footer{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  display: block;
+  margin: 0;
+  font-style: italic;
+}
+
+.fondo-footer{
+  min-height: 100vh;
+  background: #28292c;
+  border-top: 1px solid black;
+  margin: 0;
+  padding: 2px;
+  border-bottom: 1px solid black;
+}

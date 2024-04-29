@@ -1,0 +1,290 @@
+.frame-two{
+    border: 5px solid #267da3;                      
+    background-color: #267da3;
+    width: 30%; /*ancho del contenedor*/
+    min-width: 200px;
+    min-height: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px; /*crea un margen superior e inferior de 20px y el margen serecho e izquierdo lo pone automatico o centrado*/
+    margin-left: 5%;
+    margin-right: 0;
+    vertical-align: bottom;
+    padding-left: 3%;
+    padding-right: 3%;
+    cursor: pointer;
+    vertical-align: top;
+    justify-content: center;
+    display: inline-block;
+}
+
+.frame-three{
+    border: 5px solid #267da3;                      
+    background-color: #267da3;
+    width: 40%; /*ancho del contenedor*/
+    height: 10%;
+    border-radius: 10px;
+    margin-top: 20px; /*crea un margen superior e inferior de 20px y el margen serecho e izquierdo lo pone automatico o centrado*/
+    margin-left: 5%;
+    margin-right: 0;
+    vertical-align: bottom;
+    vertical-align: top;
+    justify-content: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.news-i{
+    text-align: center;
+    font-size: 5rem;
+    font-family: Helvetica;
+    color: white;
+    padding: 5%;
+    display: block;
+    margin: 0;
+}
+
+.tipos-juego{
+    text-align: center;
+    font-size: 20px;
+    color:#1b2838;
+}
+
+.list-i {
+	margin: 0;
+	padding: 0.5em;
+    text-align: left;
+    color:#1b2838;
+    text-align: center;
+    list-style: none;
+}
+
+.box-imgs{
+  width: 100%;
+  height: 100%; /*Hace que la imagen ocupe toda la altura del contenedor*/
+  margin-right: 5px; /*Agrega un pequeño margen entre la imagen y el texto*/
+  border-radius: 50px;
+}
+
+
+.frame-four{
+    border: 5px solid #267da3;                      
+    background-color: #267da3;
+    width: 30%; /*ancho del contenedor*/
+    min-width: 200px;
+    min-height: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px; /*crea un margen superior e inferior de 20px y el margen serecho e izquierdo lo pone automatico o centrado*/
+    margin-left: 5%;
+    margin-right: 0;
+    vertical-align: bottom;
+    padding-left: 3%;
+    padding-right: 3%;
+    cursor: pointer;
+    vertical-align: top;
+    justify-content: center;
+    display: inline-block;
+}
+@media (max-width: 800px) {
+    .frame-four {
+        height: auto;
+        width: 80%;
+        min-height: 400px;
+        font-family: Helvetica;
+    
+    }
+}
+
+.design{
+    display: inline-block;
+}
+
+
+.tercer{
+    background-color: #2A475E;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 3em;
+    overflow: hidden;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid black;
+    overflow: hidden;
+}
+
+.tercer-com{
+    background-color: inherit;
+    background-color: #1B2838;
+    color: white;
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    padding: 2%;
+    border-top: 3px solid black;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 60px 35px 70px 5px;
+}
+
+@media (max-width: 800px) {
+    .tercer-com {
+    font-size: small;
+    padding: 15px;
+    }
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+/*Formulario*/
+
+
+.tercer-is{
+    background-color: #2A475E;
+    width: 100%;
+    min-height: 50vh;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    overflow: auto;
+}
+
+
+.tercer-comentario{
+    background-color: inherit;
+    background-color: #1B2838;
+    color: white;
+    width: 700px;
+    height: 270px;
+    padding: 2%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    overflow: hidden;
+    text-align: end;
+    border-radius: 60px 60px 60px 60px;
+    padding: 5%;
+}
+
+@media (max-width: 800px) {
+    .tercer-comentario {
+        height: 190px;
+        width: 300px;
+    }
+}
+
+textarea{
+    background-color: #2A475E;
+    height: 80%;
+    width: 80%;
+    border-radius: 70px 70px 70px 70px;
+    padding: 10%;
+}
+
+.com-inicia{
+    background-color: inherit;
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    padding: 2%;
+    border: 3px solid rgb(189, 163, 18);
+    overflow: hidden;
+    text-align: center;
+    border-radius: 60px 35px 70px 5px;
+    font-size: xx-large;
+}
+
+
+.button-is{
+    width: auto;
+    padding: 10px 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #267da3;
+    color: white;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button-is-perfil{
+    width: auto;
+    padding: 10px 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bb3444;
+    color: white;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .button-is {
+        font-size: small;
+    }
+}
+
+.button-is:visited {
+    color: initial;
+}
+
+
+/*respuesta a comentario*/
+
+.tercer-com-i{
+    background-color: inherit;
+    background-color: #1B2838;
+    color: white;
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    padding: 2%;
+    border: 3px solid black;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 60px 60px 60px 60px;
+}
+
+@media (max-width: 800px) {
+    .tercer-com-i {
+        height: auto;
+        width: 300px;
+        font-size: small;
+    }
+}
+
+
+.flex-respuesta{
+    display: flex;
+    align-items: end;
+    padding-left: 20%;
+}
+
+.perfil-respuesta{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    vertical-align: bottom;
+    padding-left: 5%;
+}
+@media (max-width: 800px) {
+    .perfil-respuesta {
+        height: 30px;
+        width: 30px;
+    }
+}
